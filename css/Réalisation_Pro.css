@@ -1,0 +1,469 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin-left: 75px;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin-left: 0;
+        margin-top: 60px;
+    }
+  }
+
+.HRnormal{
+    color: black;
+    margin: 0 0 0 0;
+    padding: 0%;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: black;
+    /*width: 740px;*/
+}
+
+
+
+.Presentation {
+    padding-top: 6%;
+    padding-bottom: 8%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: row;
+    justify-content:center;
+    height: inherit;
+    background-color: rgb(87, 97, 107)
+}
+
+#DescriptionFormation {
+    text-align: center;
+    font-size: xx-large;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: none;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #e6e6e6;
+    font-size: 20px;
+}
+
+.scroll_down {
+    text-align: center;
+}
+
+.Projets {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #e6e6e6;
+}
+
+.Ecole {
+    display: block;
+}
+
+.Entreprise {
+    display: block;
+}
+
+.Titre_pro {
+    text-align: center;
+    padding: 4%;
+    line-height: 130%;
+    font-size: xx-large;
+
+}
+
+
+/* Projets */
+/* projets */
+/* projets */
+/* projets */
+
+.articles {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 500px;
+    max-height: 450px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+.titre_card {
+    padding-bottom: 10px;
+}
+
+.card-header img {
+    width: 100%;
+    height: 200px;
+    object-fit: none;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.card-body p {
+    font-size: 16px;
+    margin: 0 0 40px;
+}
+
+/* projets */
+/* projets */
+/* projets */
+/* projets */
+
+#liens {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* cards */
+/* cards */
+/* cards */
+/* cards */
+
+.chiffres_clés {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 50vh;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+.data-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 20.75em;
+    min-height: 30em;
+    min-width: 20em;
+    overflow: hidden;
+    border-radius: 0.5em;
+    text-decoration: none;
+    background: white;
+    margin: 1em;
+    padding: 2.75em 2.5em;
+    box-shadow: 0 1.5em 2.5em -0.5em rgba(0, 0, 0, 0.1);
+    transition: transform 0.45s ease, 0.45s ease;
+}
+
+.data-card h3 {
+    color: #2e3c40;
+    font-size: 3.5em;
+    font-weight: 600;
+    line-height: 1;
+    padding-bottom: 0.5em;
+    margin: 0 0 0.142857143em;
+    border-bottom: 2px solid #0066ff;
+    transition: color 0.45s ease, border 0.45s ease;
+}
+
+.data-card h4 {
+    color: #627084;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    margin: 0 0 1.777777778em;
+    transition: color 0.45s ease;
+}
+
+.data-card h5 {
+    color: #627084;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    margin: 0 0 1.5em;
+    transition: color 0.45s ease;
+}
+
+.data-card p {
+    opacity: 0;
+    color: #000000;
+    font-weight: 6000;
+    line-height: 1.8;
+    margin: 0 0 1.25em;
+    transform: translateY(-1em);
+    transition: opacity 0.45s ease, transform 0.5s ease;
+}
+
+.data-card .link-text {
+    display: block;
+    color: #0066ff;
+    font-size: 1.125em;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: auto 0 0;
+    transition: color 0.45s ease;
+}
+
+.data-card:hover {
+    background-image: linear-gradient(144deg, #ff3c00, #ffffff 50%, #000000);
+    transform: scale(1.02);
+}
+
+.data-card:hover h3 {
+    color: #000000;
+    border-bottom-color: #0066ff;
+}
+
+.data-card:hover h4 {
+    color: #000000;
+}
+
+.data-card:hover h5 {
+    visibility: hidden;
+}
+
+.data-card:hover p {
+    opacity: 1;
+    transform: none;
+}
+
+@-webkit-keyframes point {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(0.125em);
+    }
+}
+
+@keyframes point {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(0.125em);
+    }
+}
+
+/* cards */
+/* cards */
+/* cards */
+/* cards */
+
+
+/* pages_projets */
+/* pages_projets */
+/* pages_projets */
+/* pages_projets */
+.Titre_projets{
+    background-color: white;
+    text-align: center;
+    padding: 2% 10px 0px 10px;
+
+    line-height: 130%;
+    font-size: xx-large;
+    /*text-decoration: underline*/
+}
+
+
+.En_Savoir_plus{
+    font-size: x-large;
+    padding: 20px;
+    text-align: justify;
+
+    padding-left: 10%;
+    /*text-align: center;*/
+}
+
+#Equipement{
+    background-image: url('../images/R%c3%83%c2%a9alisation_Pro/illustration_projet.html');
+    /*background-color: white;*/
+    background-size:contain;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+
+    font-size: x-large;
+    text-align: center;
+}
+@media (max-width: 1555px) {
+    #Equipement{
+        background-position: 0px 60px;
+    }
+}
+@media (max-width: 850px) {
+    #Equipement{
+        background-position: 0px 100px;
+    }
+}
+@media (max-width: 750px) {
+    #Equipement{
+        background-image: none;
+    }
+    .detailles{
+        padding-top: 10% 20px 0px 20px;
+    }
+    .Titre_projets{
+        padding-top: 25px;
+        background-color: #ebebeb;
+    }
+}
+
+.detailles{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 32.5% 20px 0px 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding-bottom: 2%;
+}
+
+.detailles_img{
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.75em;
+}
+
+.detailles_card{
+    background-color: #81a7b9;
+    color: white;
+    position: static;
+    /*box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);*/
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 20px;
+    height: 200px;
+    width: 250px;
+}
+
+
+/*
+.detailles_card:hover {
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+}
+*/
+
+.detailles_titre {
+    text-align: center;
+    /*font-weight: bold;*/
+    padding: 5px;
+    font-size: 90%;
+}
+.detailles_text{
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 90%;
+}
+
+
+@media (max-width: 900px) {
+    .detailles_titre {
+        font-size: 70%;
+        padding-top: 17px;
+    }
+    .detailles_img{
+        display: none;
+    }
+    .detailles_card{
+        height: 100px;
+        width: 250px;
+    }
+}
+
+/* pages_projets */
+/* pages_projets */
+/* pages_projets */
+/* pages_projets */
+
+
+/*Palo Alto*/
+/*Palo Alto*/
+/*Palo Alto*/
+/*Palo Alto*/
+.palo_Alto_titre {
+    text-align: center;
+}
+
+.img_pro {
+    padding: 4%;
+}
+
+.Palo_Alto_Presentation {
+    padding-left: 10%;
+    font-size: x-large;
+}
+
+/*Palo Alto*/
+/*Palo Alto*/
+/*Palo Alto*/
+/*Palo Alto*/
+
+/*Button Projets*/
+/*Button Projets*/
+/*Button Projets*/
+/*Button Projets*/
+/*Button Projets*/
+
+.Button{
+    background-color: white;
+
+    font-weight: 700;
+    text-transform: uppercase;
+
+    padding: 12px 18px;
+    margin-top: 10PX;
+
+    border-radius: 4px;
+    border: solid 2px #121212;
+    box-shadow: 4px 4px #121212;
+    transition: transform 0.50ms,
+        box-shadow 50ms;
+}
+.Button:hover{
+    transform: translate(2px,2px);
+    box-shadow: 2px 2px #121212;
+}
+
+/*Button Projets*/
+/*Button Projets*/
+/*Button Projets*/
+/*Button Projets*/
+/*Button Projets*/
+
+/* Outil */
+/* Outil */
+/* Outil */
+/* Outil */
+
+.deploiement {
+    font-size: x-large;
+    text-align: center;
+}
+
+.outil {
+    text-align: center;
+    font-size: x-large;
+}
+
+/* Outil */
+/* Outil */
+/* Outil */
+/* Outil */

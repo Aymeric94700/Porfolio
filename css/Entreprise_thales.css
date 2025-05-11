@@ -1,0 +1,281 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(235, 235, 235);
+    margin-left: 75px;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin-left: 0;
+        margin-top: 60px;
+    }
+  }
+
+.Titre{
+    line-height: 130%;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.logo_thales{
+    text-align: center;
+    width: 100%;
+    height: auto;
+
+}
+.logo_thales img{
+    width: 50%;
+    height: auto;
+}
+
+.etat{
+    text-align: center;
+}
+.etat > h2 > a{
+    color: #000000;
+}
+
+#titre{
+    margin: 0%;
+    padding: 0%;
+    font-size: 260%;
+}
+
+hr{
+    margin: 2%;
+    padding: 0%;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: black;
+}
+
+#liens{
+    color: black;
+}
+
+.outils{
+    padding: 2%;
+    text-align: left;
+    padding-left: 5%;
+    line-height: 150%;
+}
+
+
+/* Scroll top */
+#scroll_to_top {
+    position:fixed;
+    width: 35px;
+    height: 35px;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgb(139, 139, 139);
+    padding: 5px;
+  }
+#scroll_to_top img {
+    width: 25px;
+    text-align: center;
+}
+
+
+
+/**/
+.chiffres_clés {
+    padding: 5%;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 50vh;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+.data-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 20.75em;
+    min-height: 30em;
+    min-width: 20em;
+    overflow: hidden;
+    border-radius: 0.5em;
+    text-decoration: none;
+    background: white;
+    margin: 1em;
+    padding: 2.75em 2.5em;
+    box-shadow: 0 1.5em 2.5em -0.5em rgba(0, 0, 0, 0.1);
+    transition: transform 0.45s ease, 0.45s ease;
+}
+
+.data-card h3 {
+    color: #2e3c40;
+    font-size: 3.5em;
+    font-weight: 600;
+    line-height: 1;
+    padding-bottom: 0.5em;
+    margin: 0 0 0.142857143em;
+    border-bottom: 2px solid #0066ff;
+    transition: color 0.45s ease, border 0.45s ease;
+}
+
+.data-card h4 {
+    color: #627084;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    margin: 0 0 1em;
+    transition: color 0.45s ease;
+    
+}
+
+.data-card h5 {
+    color: #627084;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    margin: 0 0 1.5em;
+    transition: color 0.45s ease;
+}
+
+.data-card p {
+    opacity: 0;
+    color: #000000;
+    font-weight: 6000;
+    line-height: 1.8;
+    margin: 0 0 1.25em;
+    transform: translateY(-1em);
+    transition: opacity 0.45s ease, transform 0.5s ease;
+}
+
+.data-card .link-text {
+    display: block;
+    color: #0066ff;
+    font-size: 1.125em;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: auto 0 0;
+    transition: color 0.45s ease;
+}
+
+.data-card:hover {
+    background-image: linear-gradient(144deg,#006eff, #ffffff 50%,#ff0000);
+    transform: scale(1.02);
+}
+
+.data-card:hover h3 {
+    color: #000000;
+    border-bottom-color: #0066ff;
+}
+
+.data-card:hover h4 {
+    color: #000000;
+}
+
+.data-card:hover h5 {
+    visibility: hidden;
+}
+
+.data-card:hover p {
+    opacity: 1;
+    transform: none;
+}
+
+@-webkit-keyframes point {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(0.125em);
+    }
+}
+
+@keyframes point {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(0.125em);
+    }
+}
+
+
+/* Autres Entreprises */
+
+.container_rectangle {
+    display: flex;
+    height: 500px;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    align-items: stretch;
+    background-color:#0099ff;
+}
+.rectangle {
+    max-width: 300px;
+    min-height: 400px;
+    min-width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  
+    max-width: 500px;
+    height: 300px;
+    padding: 35px;
+  
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+}
+#rect1 {
+    background-position: center;
+    background-image: url("../images/Entreprise/thales-logo-building-a-future-we-can-all-trust.svg");
+    background-size:60%;
+    background-repeat: no-repeat;
+}
+#rect2 {
+    background-position: center;
+    background-image: url("../images/Entreprise/logo_DIRISI.png");
+    background-size:50%;
+    background-repeat: no-repeat;
+}
+#rect1:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#rect2:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/*.separator {*/
+    /*width: 2px; *//* épaisseur souhaitée pour la barre séparatrice */
+    /*background-color: #000; *//* Couleur de la barre */
+/*}*/
+
+
+.transition_vers_entreprises {
+    /*height: 100%;*/
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.Titre_autres_entreprises{
+    background-color: #0099ff;
+    font-size: xx-large;
+    padding-bottom: 5%;
+}
+
+.container_rectangle a {
+    display: inline-flex; /* Utilisez flex pour garder les propriétés flexibles des rectangles */
+    width: 50%; /* Ajustez selon la largeur de vos rectangles */
+    height: 100%; /* Ajustez selon la hauteur souhaitée */
+    text-decoration: none; /* Optionnel, pour supprimer le soulignement par défaut des liens */
+    align-items: stretch;
+    justify-content:space-around;
+}
+  
